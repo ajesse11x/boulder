@@ -2,3 +2,5 @@ acme>=0.10.1
 cryptography>=0.7
 PyOpenSSL
 requests
+certifi>=2022.12.7 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
